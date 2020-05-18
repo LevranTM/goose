@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Верстка таблиц</title>
+    <style type=Mtext/css">
+        td,
+        th {
+            border: lpx solid #CCC;
+        }
+
+        table {
+            border: lpx solid black;
+        }
+    </style>
+</head>
+<table>
+    <caption>загаловок таблицы</caption>
+    <tr>
+        <th rowspan="2"></th>
+        <th colspan="2">Общий заголовок для двух подзаголовков</th>
+        <th rowspan="2">Заголовок 3</th>
+    </tr>
+    <tr>
+        <th>Заголовок 1</th>
+        <th>Заголовок 2</th>
+    </tr>
+    <tr>
+        <th>Пункт А</th>
+        <td>Данные А1</td>
+        <td>Данные А2</td>
+        <td>Данные А3</td>
+    </tr>
+    <tr>
+        <th>Пункт Б</th>
+        <td>Данные Б1</td>
+        <td>Данные Б2</td>
+        <td>Данные Б3</td>
+    </tr>
+    <tr>
+        <th>Пункт В</th>
+        <td>Данные В1</td>
+        <td>Данные В2</td>
+        <td>Данные В3</td>
+    </tr>
+</table>
+<ul>
+    <li><label><input type="text" name="city" id="form-city" value="Ваш город" maxlength="50"></label></li>
+</ul>
+<li><label for="form-pswd">Пароль</label><input type="password" maxlength="8" id="form-pswd"></li>
+
+
+<body>
+
+</body>
+
+</html>
